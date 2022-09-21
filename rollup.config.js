@@ -9,6 +9,7 @@ import commonjs from 'rollup-plugin-commonjs';
 export default [
   {
     input: './src/index.js',
+    external: [ 'react' ],
     output: [
       {
         file: 'dist/index.js',
@@ -27,7 +28,9 @@ export default [
       nodePolyfills(),
       babel({
         exclude: 'node_modules/**',
-        presets: ['@babel/preset-react'],
+        presets: ['@babel/preset-react', {
+          'runtime': 'automatic'
+        }],
       }),
       commonjs(),
       external(),
