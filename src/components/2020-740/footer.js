@@ -1,3 +1,4 @@
+import React from 'react';
 import { NoiseIcon } from './noise';
 import { SnowIcon } from './snow';
 import { IceIcon } from './ice';

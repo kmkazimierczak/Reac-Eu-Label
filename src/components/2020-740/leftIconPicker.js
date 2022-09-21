@@ -1,3 +1,5 @@
+import React from 'react';
+
 export function LeftIconPicker({ char }) {
   if (char === 'A') {
     return (

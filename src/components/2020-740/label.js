@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import QRCode from 'react-qr-code';
 import { DelegatingActText } from './delegatingActText';

@@ -1,3 +1,5 @@
+import React from 'react';
+
 function NoiseChar({ char, position = 0 }) {
   const positionMap = {
     AA: {

@@ -1,3 +1,4 @@
+import React from 'react';
 export function IceIcon() {
   return (
     <g transform="matrix(1.0392358,0,0,-1.0392358,-10.337162,311.98226)" id="iceGroupForSnowAndIce">
