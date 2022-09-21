@@ -1,5 +1,5 @@
 {
-  "name": "tyre-eu-label",
+  "name": "react-tyre-eu-label",
   "version": "0.1.0",
   "private": false,
   "author": "Chris Kazimierczak",
@@ -48,6 +48,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kmkazimierczak/Reac-Eu-Label.git"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
